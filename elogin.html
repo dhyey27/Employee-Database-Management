@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In | Employee Management System</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+<body background="process/images/bg2.jpg">
+	<header>
+		<nav>
+			<h1>Employee Management System</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+				<li><a class="homered" href="elogin.html">Employee Login</a></li>
+				<li><a class="homeblack" href="alogin.html">Admin Login</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div style="width: 500px; height: 400px; border-radius: 15px; background: #202020; " class="loginbox">
+    <img src="assets/employee.png" class="avatar">
+        <h1>Login Here</h1>
+        <form action="process/eprocess.php" method="POST">
+            <p>Email</p>
+            <input  style="border-radius: 8.5px;" type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Password</p>
+            <input  style="border-radius: 8.5px;" type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input style="width: 75px; background: #249202; border-radius: 12px; margin-left: 190px;" type="submit" name="login-submit" value="Login">
+           
+        </form>
+        
+    </div>
+			
+			
+</body>
+</html>
